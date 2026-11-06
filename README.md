@@ -1,6 +1,51 @@
 # Pocket Plans
 
+**[Live website](https://pocket-plans-ten.vercel.app/)** · **[GitHub repository](https://github.com/jainilkhatri0509/pocket-plans)**
+
 A campus break planner built with HTML, CSS, React and JavaScript. Select your available time, budget per person, company and mood. The planner offers activities that meet all four choices and gives you a three-step checklist for each one.
+
+## Features
+
+- Find a break by available time, budget per person, company and mood.
+- Browse 21 campus activities, search by keyword and filter by mood.
+- Save favourite plans and track their three-step checklists in the browser.
+- Share a group poll with friends and view votes stored in Supabase.
+- Use the responsive interface on a phone or laptop.
+
+## Technology
+
+| Technology | Used for |
+| --- | --- |
+| HTML | Page entry point and document structure |
+| CSS | Layout, colours, responsive styling and plan tickets |
+| React | Components, navigation and interactive screens |
+| JavaScript | Activity matching, search, browser storage and API requests |
+| Vite | Local development and production builds |
+| Supabase / PostgreSQL | Group polls and votes |
+| Vercel | Website hosting |
+
+## Team responsibilities
+
+The project was divided into three parts. The leader integrated the contributions into the runnable project on `main`.
+
+| Assigned part | Responsibility | Integration pull request |
+| --- | --- | --- |
+| Participant 1 — Campus design | Campus illustration, shared icons and responsive page layout | [PR #1](https://github.com/jainilkhatri0509/pocket-plans/pull/1) |
+| Participant 2 — Activity engine / group leader | Activity catalogue, activity cards and illustrations, matching logic and Supabase poll functions | [PR #2](https://github.com/jainilkhatri0509/pocket-plans/pull/2) |
+| Participant 3 — Interactive planner | Planner controls, activity browsing, saved plans, checklist dialogs and group voting interface | [PR #3](https://github.com/jainilkhatri0509/pocket-plans/pull/3) |
+
+## Project structure
+
+```text
+index.html          HTML entry point
+package.json        Dependencies and npm commands
+public/             Site icon and public assets
+src/                React components, CSS and JavaScript logic
+supabase/polls.sql   Database tables and poll functions
+tests/              Activity matching tests
+```
+
+Run and deploy the project from the repository root. The original campus upload folder and planner ZIP are retained as submission records; the integrated application is in the root folders listed above.
 
 ## Run it
 
